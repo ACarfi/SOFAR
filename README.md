@@ -1,22 +1,19 @@
 # Data collection for human-human and human-robot handover tasks
 
-TODO: Write a project description and development context (e.g. assignment, group project, etc.)
+This software was developped during a group project, it's aim is to collect and synchronize data coming from different source during a human-human handover task. The equipment includes:
+
+-motion capture system
+-kinect
+-inertial sensor embedded in smartwatches
 
 ## Installation
 
-TODO: Describe the installation process and required dependencies with software versions (e.g. ROS Indigo, PCL v1.2, etc.).
+For what regards packages "mocap_optitrack", "syn" and "wearable_client" is sufficient to copy them in a catkin workespace and compile them using catkin_make. While for "openni_tracker" before you could compile it you have to install openNi library (you can find installation instruction here https://github.com/OpenNI/OpenNI).
 
 ## Usage
 
 TODO: Write usage instructions with input/output mechanism specification (e.g. topics if ROS package) and *possibly* a minimal working example.
 
-## Contributing instructions
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
 
 ## Credits
 
