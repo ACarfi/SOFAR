@@ -12,7 +12,7 @@ For what regards packages "mocap_optitrack", "syn" and "wearable_client" is suff
 
 All the ROS package were developed for ROS Indigo.
 
-To install the android application you have to use Android Studio.
+To install the android applications you have to use Android Studio.
 ## Usage
 
 TODO: Write usage instructions with input/output mechanism specification (e.g. topics if ROS package) and *possibly* a minimal working example.
