@@ -30,7 +30,7 @@ All the ROS node was developped and used under ROS Indigo let's see some additio
 <b>openni_tracker</b><br>
 Was taken from the openNI library and it uses the "tf" package in order to make available the transformations of some body link frames (official wiki:http://wiki.ros.org/openni_tracker)<br><br>
 <b>mocap_node</b><br><br>
-It comes from the "mocap_optitrack" package but was modified. The original one in fact was able to publish only the data coming frome rigid body, this version publishes position of all markers. The markers coordinates are pushed in an array and published in the topic "/markers_coo".<br><br>
+It comes from the "mocap_optitrack" package (https://github.com/ros-drivers/mocap_optitrack) but was modified. The original one in fact was able to publish only the data coming frome rigid body, this version publishes position of all markers. The markers coordinates are pushed in an array and published in the topic "/markers_coo".<br><br>
 <b>wearable_client_node</b><br><br>
 This node implements a client that reads from a socket the angular velocities and linear acceleration arriving from two smartwatches through the smartphone, this data are divided depending on the source and published on two different topics "wearS_1" and "wearS_2" using UMI messages.<br><br>
 <b>sync_node</b><br><br>
@@ -40,13 +40,11 @@ It subscribe to the topics of "wearable_client_node" and "mocap_node" and it use
 
 ## Credits
 
-TODO: Write credits (Authors, libraries used, etc.)
-
+Author: Carfì Alessandro<br>
+Library: OpenNI (openni_tracker), NatNet(mocap_optitrack)
 ## License
 
-TODO: Write license (GPL, CC, MIT)
+GPL
 
-## History (optional)
 
-TODO: Write version history
 
