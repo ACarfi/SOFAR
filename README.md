@@ -17,7 +17,7 @@ To install the android applications you have to use Android Studio.
 Here follows instructions to use the code <br><br>
 <b>On the smartwatches</b>:<br>
 execute the "prova" application and pres the button "start", this application cames from https://github.com/bbbruno/WearAmI and was developed by Andrea Galea.<br>
-<b>On the smartphone pc</b>:<br>
+<b>On the smartphone</b>:<br>
 execute the "prova" application, if the smarthpone is properly reciving data from the smartwatches it apears "sending..."<br>
 <b>On the mocap pc</b>:<br>
   open the streaming menu of motive set the streaming IP with the IP of your computer and tick "Brodcast Frame Data"<br> 
