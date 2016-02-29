@@ -22,11 +22,11 @@ execute the "prova" application, if the smarthpone is properly receiving data fr
 <b>On the mocap pc</b>:<br>
   open the streaming menu of motive set the streaming IP with the IP of your computer and tick "Brodcast Frame Data"<br> 
 <b>On your pc</b>:<br>
-  execute "openni_tracker", you can check if the kinect is working properly executin in another terminal "rviz"<br>
+  execute "openni_tracker", you can check if the kinect is working properly executing in another terminal "rviz"<br>
   execute "mocap_node", if inside the mocap area there are some markers it will display the number of markers<br>
-  execute "wearable_client_node", when the client is receiving correctly the data in the terminal il written "starting" <br>
-  finally execute "sync_node", it immediately asks for the experiment name once you pres enter it starts recording and it stops   when you terminate the node with "ctrl + c".<br><br>
-All the ROS node was developped and used under ROS Indigo let's see some additional information on this nodes:<br><br>
+  execute "wearable_client_node", when the client is receiving correctly the data in the terminal is written "starting" <br>
+  finally execute "sync_node", it immediately asks for the experiment name once you press enter it starts recording and it stops   when you terminate the node with "ctrl + c".<br><br>
+All the ROS nodes were developped and used under ROS Indigo. Let's see some additional information on these nodes:<br><br>
 <b>openni_tracker</b><br>
 Was taken from the openNI library and it uses the "tf" package in order to make available the transformations of some body link frames (official wiki:http://wiki.ros.org/openni_tracker)<br><br>
 <b>mocap_node</b><br><br>
